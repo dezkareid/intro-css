@@ -1,0 +1,75 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+ 	width: 100%;
+ 	height: 100%;
+}
+
+a {
+	text-decoration: none;
+	margin: 0.5rem;
+}
+
+a:hover {
+	color: blue;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: black;
+}
+
+form {
+	margin: 2rem;
+}
+
+footer {
+	background-color: #f2f2f2;
+	padding: 0.8rem 0;
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+footer div {
+	display: inline-block;
+	width: 50%;
+	border: 0;
+}
+/*
+footer div:nth-child(2) {
+	text-align: right;
+}
+*/
+header {
+	padding: 1.5rem;
+    text-align: right;
+}
+
+li {
+	display: inline-block;
+}
+
+main {
+	padding: 2rem;
+	text-align: center;
+}
+
+#logo_gatito {
+	display: block;
+	margin: auto;
+}
+
+input[name="caja-busqueda"] {
+	display: block;
+	margin: 0.5rem auto 2rem;
+}
+
+.right {
+	text-align: right;
+}
